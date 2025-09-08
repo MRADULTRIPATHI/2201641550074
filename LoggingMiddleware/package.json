@@ -1,0 +1,22 @@
+{
+  "name": "@urlshortener/logging-middleware",
+  "version": "1.0.0",
+  "description": "Reusable logging middleware for URL shortener application",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["logging", "middleware", "typescript"],
+  "author": "URL Shortener Team",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.0"
+  }
+}
